@@ -1,0 +1,5 @@
+float64 amplitude
+float64 frequency
+---
+bool amplitude_changed
+bool frequency_changed

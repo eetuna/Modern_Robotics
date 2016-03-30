@@ -1,0 +1,3 @@
+# Baxter Moves Library
+This library contains a set of three movements. The my_interesting_moves.cpp file is an action client. This client calculates a trajectory (using baxter_traj_streamer) from the robot's current pose to a desire pose. The client then puts this trajectory into a goal message and sends it to the action server. The action server then commands baxter to completed the desired trajectory.
+    
